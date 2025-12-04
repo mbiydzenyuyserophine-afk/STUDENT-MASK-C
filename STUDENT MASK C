@@ -1,0 +1,16 @@
+#include <studio.h>
+
+int main() {
+    int mark;
+
+    printf("enter student mark:");
+    scanf("%d", &mark);
+
+   if (mark >=50){
+       printf("pass\n");
+}else{
+     printf("fail\n");
+}
+
+   return 0;
+}
